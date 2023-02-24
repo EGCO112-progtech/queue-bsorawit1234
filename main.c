@@ -52,5 +52,10 @@ int main(int argc, char **argv) {
     printf("There are %d ppl left in the queue.", count_q);
   }
 
+  for(NodePtr temp; q.headPtr != NULL; q.headPtr = q.headPtr->nextPtr) {
+    temp = q.headPtr;
+    free(temp);
+  }
+
   return 0;
 }
