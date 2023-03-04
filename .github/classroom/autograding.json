@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "gcc main.c -o Q",
+      "run": "./Q 1 2 x 2 2 x x 3 1",
+      "input": "",
+      "output": "1 people left in the queue",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "test2",
+      "setup": "gcc main.c -o Q",
+      "run": "./Q 1 2 x 2 2 x x 3 1",
+      "input": "Somtum",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    },
+    {
+      "name": "test3",
+      "setup": "gcc main.c -o Q",
+      "run": "./Q 1 2 x 2 2 x x 3 1",
+      "input": "cash",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
